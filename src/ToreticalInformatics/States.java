@@ -3,8 +3,9 @@ package ToreticalInformatics;
 enum States implements State {
     Init {
         private String name = "S0     ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "O | O | O | O | O | O | Č | Č | Č ";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -27,14 +28,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G1 {
         private String name = "S1     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
-
+        private String button = "Žádné";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -53,13 +55,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G12 {
         private String name = "S1-2   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -79,13 +82,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G2 {
         private String name = "S2     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -106,13 +110,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+      }
     },
     G23 {
         private String name = "S2-3   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -132,13 +137,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     G3 {
         private String name = "S3     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -158,13 +164,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     G34 {
         private String name = "S3-4   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -184,13 +191,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G4 {
         private String name = "S4     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -211,13 +219,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G45 {
         private String name = "S4-5   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -237,13 +246,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G5 {
         private String name = "S5     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -263,13 +273,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G56 {
         private String name = "S5-6   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -289,13 +300,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G6 {
         private String name = "S6     ";
-        private String duration = " --- doba trvání: t1 (20 sekund)";
+        private String duration = "t1 (20 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -316,13 +328,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     G61 {
         private String name = "S6-1   ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
+        private String button = "Žádné";
 
         @Override
         public State next(Character in) {
@@ -342,14 +355,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
 
     Y1 {
         private String name = "S1'    ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
+        private String button = "1";
 
         @Override
         public State next(Character in) {
@@ -370,14 +384,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y12 {
         private String name = "S1-2'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -397,14 +412,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y23 {
         private String name = "S2-3'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -426,14 +442,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y3 {
         private String name = "S3'    ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -455,13 +472,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y34 {
         private String name = "S3-4'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
+        private String button = "1";
 
         @Override
         public State next(Character in) {
@@ -484,13 +502,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y4 {
         private String name = "S4'    ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
+        private String button = "1";
 
         @Override
         public State next(Character in) {
@@ -513,13 +532,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y45 {
         private String name = "S4-5'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
+        private String button = "1";
 
         @Override
         public State next(Character in) {
@@ -541,13 +561,14 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y5 {
         private String name = "S5'    ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
+        private String button = "1";
 
         @Override
         public State next(Character in) {
@@ -569,14 +590,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     Y56 {
         private String name = "S5-6'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -597,14 +619,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y6 {
         private String name = "S6'    ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -625,14 +648,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     Y61 {
         private String name = "S6-1'  ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
-
+        private String button = "1";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -652,15 +676,16 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
 
     B1 {
         private String name = "S1''   ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -681,14 +706,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B12 {
         private String name = "S1-2'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -709,14 +735,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     B2 {
         private String name = "S2''   ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -737,14 +764,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B23 {
         private String name = "S2-3'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -764,14 +792,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B3 {
         private String name = "S3''   ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -791,14 +820,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B34 {
         private String name = "S3-4'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -818,14 +848,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B45 {
         private String name = "S4-5'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -847,14 +878,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B5 {
         private String name = "S5''   ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -876,14 +908,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B56 {
         private String name = "S5-6'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -905,14 +938,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     B6 {
         private String name = "S6''   ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -934,14 +968,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     B61 {
         private String name = "S6-1'' ";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
-
+        private String button = "2";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -962,15 +997,16 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
 
     R1 {
         private String name = "S1'''  ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -992,14 +1028,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     R12 {
         private String name = "S1-2'''";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1021,14 +1058,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R2 {
         private String name = "S2'''  ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1050,14 +1088,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
-        }
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
+       }
     },
     R23 {
         private String name = "S2-3'''";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1078,14 +1117,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R3 {
         private String name = "S3'''  ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1106,14 +1146,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R34 {
         private String name = "S3-4'''";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1134,14 +1175,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R4 {
         private String name = "S4'''  ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1162,14 +1204,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R45 {
         private String name = "S4-5'''"; 
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1189,14 +1232,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R5 {
         private String name = "S5'''  ";
-        private String duration = " --- doba trvání: t2 (15 sekund)";
+        private String duration = "t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1216,14 +1260,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R56 {
         private String name = "S5-6'''";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1243,14 +1288,15 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
     R61 {
         private String name = "S6-1'''";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
+        private String duration = "t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
-
+        private String button = "3";
+        
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1272,19 +1318,20 @@ enum States implements State {
 
         @Override
         public String toString() {
-            return this.name + " : " + this.lights + this.duration;
+            return this.name + " : " + this.lights + " --- doba trvání: " + this.duration + ", stisknuté tlačítko: " + this.button;
         }
     },
 
     Fail {
         private String name = "Fail";
-        private String duration = " --- doba trvání: t0 (4 sekundy)";
-        private String lights = "O | O | O | O | O | O | Č | Č | Č";
+        private String duration = "t nekonečno";
+        private String lights = "Č | Č | Č | Č | Č | Č | Č | Č | Č";
+        private String button = "Špatné";
 
         @Override
         public State next(Character c) {
-            System.out.println("Nepovolený stav");
-            return Fail;
+            System.out.println("Nepovolený stav, restartuji semafory");
+            return Init;
         }
 
         @Override

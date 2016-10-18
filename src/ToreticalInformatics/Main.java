@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 interface State {
     State next(Character in);
-
     String toString();
 }
 
