@@ -2,62 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee39bca4-2ab2-4f97-baa4-f22d7534e490" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Timer.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/State.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/State.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$1.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$10.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$11.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$12.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$13.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$14.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$15.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$16.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$17.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$17.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$18.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$19.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$19.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$2.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$20.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$20.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$21.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$21.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$22.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$22.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$23.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$23.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$24.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$24.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$25.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$25.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$26.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$26.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$27.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$27.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$28.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$28.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$29.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$29.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$3.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$30.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$30.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$31.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$31.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$32.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$32.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$33.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$33.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$34.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$34.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$35.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$35.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$36.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$36.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$37.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$37.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$38.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$38.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$39.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$39.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$4.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$40.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$40.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$41.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$41.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$42.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$42.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$43.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$43.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$44.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$44.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$45.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$45.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$46.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$46.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$47.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$47.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$5.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$6.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$7.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$8.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$9.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/State.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$28.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$29.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$30.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$31.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$32.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$33.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$34.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$35.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$36.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$37.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$38.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$39.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$40.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$41.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$42.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$43.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$44.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$45.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$46.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$47.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Utilities.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/States.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" afterPath="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/States.java" afterPath="$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" afterPath="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
     </list>
     <ignored path="Traffic_lights_control.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,131 +78,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-              <folding>
-                <element signature="e#1330#1331#0" expanded="true" />
-                <element signature="e#1378#1379#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utilities.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java">
+        <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="States.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-              <folding>
-                <element signature="class#71:1040" expanded="false" />
-                <element signature="method#next#0;class#71:1040" expanded="false" />
-                <element signature="class#1049:1822" expanded="false" />
-                <element signature="method#next#0;class#1049:1822" expanded="false" />
-                <element signature="class#1832:2606" expanded="false" />
-                <element signature="method#next#0;class#1832:2606" expanded="false" />
-                <element signature="class#2615:3451" expanded="false" />
-                <element signature="method#next#0;class#2615:3451" expanded="false" />
-                <element signature="class#3461:4238" expanded="false" />
-                <element signature="method#next#0;class#3461:4238" expanded="false" />
-                <element signature="class#4247:5020" expanded="false" />
-                <element signature="method#next#0;class#4247:5020" expanded="false" />
-                <element signature="class#5030:5804" expanded="false" />
-                <element signature="method#next#0;class#5030:5804" expanded="false" />
-                <element signature="class#5813:6649" expanded="false" />
-                <element signature="method#next#0;class#5813:6649" expanded="false" />
-                <element signature="class#6659:7437" expanded="false" />
-                <element signature="method#next#0;class#6659:7437" expanded="false" />
-                <element signature="class#7446:8219" expanded="false" />
-                <element signature="method#next#0;class#7446:8219" expanded="false" />
-                <element signature="class#8229:9003" expanded="false" />
-                <element signature="method#next#0;class#8229:9003" expanded="false" />
-                <element signature="class#9012:9848" expanded="false" />
-                <element signature="method#next#0;class#9012:9848" expanded="false" />
-                <element signature="class#9858:10632" expanded="false" />
-                <element signature="method#next#0;class#9858:10632" expanded="false" />
-                <element signature="class#10642:11478" expanded="false" />
-                <element signature="method#next#0;class#10642:11478" expanded="false" />
-                <element signature="class#11488:12325" expanded="false" />
-                <element signature="method#next#0;class#11488:12325" expanded="false" />
-                <element signature="class#12335:13301" expanded="false" />
-                <element signature="method#next#0;class#12335:13301" expanded="false" />
-                <element signature="class#13310:14272" expanded="false" />
-                <element signature="method#next#0;class#13310:14272" expanded="false" />
-                <element signature="class#14282:15245" expanded="false" />
-                <element signature="method#next#0;class#14282:15245" expanded="false" />
-                <element signature="class#15254:16216" expanded="false" />
-                <element signature="method#next#0;class#15254:16216" expanded="false" />
-                <element signature="class#16226:17130" expanded="false" />
-                <element signature="method#next#0;class#16226:17130" expanded="false" />
-                <element signature="class#17139:18038" expanded="false" />
-                <element signature="method#next#0;class#17139:18038" expanded="false" />
-                <element signature="class#18048:18948" expanded="false" />
-                <element signature="method#next#0;class#18048:18948" expanded="false" />
-                <element signature="class#18957:19856" expanded="false" />
-                <element signature="method#next#0;class#18957:19856" expanded="false" />
-                <element signature="class#19866:20703" expanded="false" />
-                <element signature="method#next#0;class#19866:20703" expanded="false" />
-                <element signature="class#20713:21612" expanded="false" />
-                <element signature="method#next#0;class#20713:21612" expanded="false" />
-                <element signature="class#21622:22522" expanded="false" />
-                <element signature="method#next#0;class#21622:22522" expanded="false" />
-                <element signature="class#22531:23430" expanded="false" />
-                <element signature="method#next#0;class#22531:23430" expanded="false" />
-                <element signature="class#23440:24279" expanded="false" />
-                <element signature="method#next#0;class#23440:24279" expanded="false" />
-                <element signature="class#24288:25124" expanded="false" />
-                <element signature="method#next#0;class#24288:25124" expanded="false" />
-                <element signature="class#25134:25971" expanded="false" />
-                <element signature="method#next#0;class#25134:25971" expanded="false" />
-                <element signature="class#25981:26948" expanded="false" />
-                <element signature="method#next#0;class#25981:26948" expanded="false" />
-                <element signature="class#26957:27919" expanded="false" />
-                <element signature="method#next#0;class#26957:27919" expanded="false" />
-                <element signature="class#27929:28892" expanded="false" />
-                <element signature="method#next#0;class#27929:28892" expanded="false" />
-                <element signature="class#28901:29863" expanded="false" />
-                <element signature="method#next#0;class#28901:29863" expanded="false" />
-                <element signature="class#29873:30773" expanded="false" />
-                <element signature="method#next#0;class#29873:30773" expanded="false" />
-                <element signature="class#30783:31745" expanded="false" />
-                <element signature="method#next#0;class#30783:31745" expanded="false" />
-                <element signature="class#31755:32718" expanded="false" />
-                <element signature="method#next#0;class#31755:32718" expanded="false" />
-                <element signature="class#32727:33689" expanded="false" />
-                <element signature="method#next#0;class#32727:33689" expanded="false" />
-                <element signature="class#33699:34602" expanded="false" />
-                <element signature="method#next#0;class#33699:34602" expanded="false" />
-                <element signature="class#34611:35510" expanded="false" />
-                <element signature="method#next#0;class#34611:35510" expanded="false" />
-                <element signature="class#35520:36420" expanded="false" />
-                <element signature="method#next#0;class#35520:36420" expanded="false" />
-                <element signature="class#36429:37328" expanded="false" />
-                <element signature="method#next#0;class#36429:37328" expanded="false" />
-                <element signature="class#37338:38179" expanded="false" />
-                <element signature="method#next#0;class#37338:38179" expanded="false" />
-                <element signature="class#38188:39024" expanded="false" />
-                <element signature="method#next#0;class#38188:39024" expanded="false" />
-                <element signature="class#39034:39871" expanded="false" />
-                <element signature="method#next#0;class#39034:39871" expanded="false" />
-                <element signature="class#39881:40844" expanded="false" />
-                <element signature="method#next#0;class#39881:40844" expanded="false" />
-                <element signature="class#40856:41316" expanded="false" />
-                <element signature="method#next#0;class#40856:41316" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -230,8 +109,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/MyTimerTask.java" />
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/config.java" />
-        <option value="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
+        <option value="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
       </list>
     </option>
@@ -285,72 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToreticalInformatics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToreticalInformatics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Main.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Traffic_lights_control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ToreticalInformatics" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -361,7 +174,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -374,7 +187,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ToreticalInformatics.Main" />
+      <option name="MAIN_CLASS_NAME" value="TeoreticalInformatics.Main" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -644,12 +457,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12864584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -661,7 +475,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -680,30 +493,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ToreticalInformatics/States.java</url>
-          <line>142</line>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ToreticalInformatics/States.java</url>
-          <line>194</line>
+          <line>202</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ToreticalInformatics/States.java</url>
-          <line>436</line>
+          <line>453</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="39" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -712,20 +519,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -733,251 +527,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7530">
-          <caret line="502" column="49" selection-start-line="502" selection-start-column="49" selection-end-line="502" selection-end-column="49" />
-          <folding>
-            <element signature="class#71:1040" expanded="false" />
-            <element signature="method#next#0;class#71:1040" expanded="false" />
-            <element signature="class#1049:1822" expanded="false" />
-            <element signature="method#next#0;class#1049:1822" expanded="false" />
-            <element signature="class#1832:2606" expanded="false" />
-            <element signature="method#next#0;class#1832:2606" expanded="false" />
-            <element signature="class#2615:3451" expanded="false" />
-            <element signature="method#next#0;class#2615:3451" expanded="false" />
-            <element signature="class#3461:4238" expanded="false" />
-            <element signature="method#next#0;class#3461:4238" expanded="false" />
-            <element signature="class#4247:5020" expanded="false" />
-            <element signature="method#next#0;class#4247:5020" expanded="false" />
-            <element signature="class#5030:5804" expanded="false" />
-            <element signature="method#next#0;class#5030:5804" expanded="false" />
-            <element signature="class#5813:6649" expanded="false" />
-            <element signature="method#next#0;class#5813:6649" expanded="false" />
-            <element signature="class#6659:7437" expanded="false" />
-            <element signature="method#next#0;class#6659:7437" expanded="false" />
-            <element signature="class#7446:8219" expanded="false" />
-            <element signature="method#next#0;class#7446:8219" expanded="false" />
-            <element signature="class#8229:9003" expanded="false" />
-            <element signature="method#next#0;class#8229:9003" expanded="false" />
-            <element signature="class#9012:9848" expanded="false" />
-            <element signature="method#next#0;class#9012:9848" expanded="false" />
-            <element signature="class#9858:10632" expanded="false" />
-            <element signature="method#next#0;class#9858:10632" expanded="false" />
-            <element signature="class#10642:11478" expanded="false" />
-            <element signature="method#next#0;class#10642:11478" expanded="false" />
-            <element signature="class#11488:12325" expanded="false" />
-            <element signature="method#next#0;class#11488:12325" expanded="false" />
-            <element signature="class#12335:13301" expanded="false" />
-            <element signature="method#next#0;class#12335:13301" expanded="false" />
-            <element signature="class#13310:14272" expanded="false" />
-            <element signature="method#next#0;class#13310:14272" expanded="false" />
-            <element signature="class#14282:15245" expanded="false" />
-            <element signature="method#next#0;class#14282:15245" expanded="false" />
-            <element signature="class#15254:16216" expanded="false" />
-            <element signature="method#next#0;class#15254:16216" expanded="false" />
-            <element signature="class#16226:17130" expanded="false" />
-            <element signature="method#next#0;class#16226:17130" expanded="false" />
-            <element signature="class#17139:18038" expanded="false" />
-            <element signature="method#next#0;class#17139:18038" expanded="false" />
-            <element signature="class#18048:18948" expanded="false" />
-            <element signature="method#next#0;class#18048:18948" expanded="false" />
-            <element signature="class#18957:19856" expanded="false" />
-            <element signature="method#next#0;class#18957:19856" expanded="false" />
-            <element signature="class#19866:20703" expanded="false" />
-            <element signature="method#next#0;class#19866:20703" expanded="false" />
-            <element signature="class#20713:21612" expanded="false" />
-            <element signature="method#next#0;class#20713:21612" expanded="false" />
-            <element signature="class#21622:22522" expanded="false" />
-            <element signature="method#next#0;class#21622:22522" expanded="false" />
-            <element signature="class#22531:23430" expanded="false" />
-            <element signature="method#next#0;class#22531:23430" expanded="false" />
-            <element signature="class#23440:24279" expanded="false" />
-            <element signature="method#next#0;class#23440:24279" expanded="false" />
-            <element signature="class#24288:25124" expanded="false" />
-            <element signature="method#next#0;class#24288:25124" expanded="false" />
-            <element signature="class#25134:25971" expanded="false" />
-            <element signature="method#next#0;class#25134:25971" expanded="false" />
-            <element signature="class#25981:26948" expanded="false" />
-            <element signature="method#next#0;class#25981:26948" expanded="false" />
-            <element signature="class#26957:27919" expanded="false" />
-            <element signature="method#next#0;class#26957:27919" expanded="false" />
-            <element signature="class#27929:28892" expanded="false" />
-            <element signature="method#next#0;class#27929:28892" expanded="false" />
-            <element signature="class#28901:29863" expanded="false" />
-            <element signature="method#next#0;class#28901:29863" expanded="false" />
-            <element signature="class#29873:30773" expanded="false" />
-            <element signature="method#next#0;class#29873:30773" expanded="false" />
-            <element signature="class#30783:31745" expanded="false" />
-            <element signature="method#next#0;class#30783:31745" expanded="false" />
-            <element signature="class#31755:32718" expanded="false" />
-            <element signature="method#next#0;class#31755:32718" expanded="false" />
-            <element signature="class#32727:33689" expanded="false" />
-            <element signature="method#next#0;class#32727:33689" expanded="false" />
-            <element signature="class#33699:34602" expanded="false" />
-            <element signature="method#next#0;class#33699:34602" expanded="false" />
-            <element signature="class#34611:35510" expanded="false" />
-            <element signature="method#next#0;class#34611:35510" expanded="false" />
-            <element signature="class#35520:36420" expanded="false" />
-            <element signature="method#next#0;class#35520:36420" expanded="false" />
-            <element signature="class#36429:37328" expanded="false" />
-            <element signature="method#next#0;class#36429:37328" expanded="false" />
-            <element signature="class#37338:38179" expanded="false" />
-            <element signature="method#next#0;class#37338:38179" expanded="false" />
-            <element signature="class#38188:39024" expanded="false" />
-            <element signature="method#next#0;class#38188:39024" expanded="false" />
-            <element signature="class#39034:39871" expanded="false" />
-            <element signature="method#next#0;class#39034:39871" expanded="false" />
-            <element signature="class#39881:40844" expanded="false" />
-            <element signature="method#next#0;class#39881:40844" expanded="false" />
-            <element signature="class#40856:41316" expanded="false" />
-            <element signature="method#next#0;class#40856:41316" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7530">
-          <caret line="502" column="49" selection-start-line="502" selection-start-column="49" selection-end-line="502" selection-end-column="49" />
-          <folding>
-            <element signature="class#71:1040" expanded="false" />
-            <element signature="method#next#0;class#71:1040" expanded="false" />
-            <element signature="class#1049:1822" expanded="false" />
-            <element signature="method#next#0;class#1049:1822" expanded="false" />
-            <element signature="class#1832:2606" expanded="false" />
-            <element signature="method#next#0;class#1832:2606" expanded="false" />
-            <element signature="class#2615:3451" expanded="false" />
-            <element signature="method#next#0;class#2615:3451" expanded="false" />
-            <element signature="class#3461:4238" expanded="false" />
-            <element signature="method#next#0;class#3461:4238" expanded="false" />
-            <element signature="class#4247:5020" expanded="false" />
-            <element signature="method#next#0;class#4247:5020" expanded="false" />
-            <element signature="class#5030:5804" expanded="false" />
-            <element signature="method#next#0;class#5030:5804" expanded="false" />
-            <element signature="class#5813:6649" expanded="false" />
-            <element signature="method#next#0;class#5813:6649" expanded="false" />
-            <element signature="class#6659:7437" expanded="false" />
-            <element signature="method#next#0;class#6659:7437" expanded="false" />
-            <element signature="class#7446:8219" expanded="false" />
-            <element signature="method#next#0;class#7446:8219" expanded="false" />
-            <element signature="class#8229:9003" expanded="false" />
-            <element signature="method#next#0;class#8229:9003" expanded="false" />
-            <element signature="class#9012:9848" expanded="false" />
-            <element signature="method#next#0;class#9012:9848" expanded="false" />
-            <element signature="class#9858:10632" expanded="false" />
-            <element signature="method#next#0;class#9858:10632" expanded="false" />
-            <element signature="class#10642:11478" expanded="false" />
-            <element signature="method#next#0;class#10642:11478" expanded="false" />
-            <element signature="class#11488:12325" expanded="false" />
-            <element signature="method#next#0;class#11488:12325" expanded="false" />
-            <element signature="class#12335:13301" expanded="false" />
-            <element signature="method#next#0;class#12335:13301" expanded="false" />
-            <element signature="class#13310:14272" expanded="false" />
-            <element signature="method#next#0;class#13310:14272" expanded="false" />
-            <element signature="class#14282:15245" expanded="false" />
-            <element signature="method#next#0;class#14282:15245" expanded="false" />
-            <element signature="class#15254:16216" expanded="false" />
-            <element signature="method#next#0;class#15254:16216" expanded="false" />
-            <element signature="class#16226:17130" expanded="false" />
-            <element signature="method#next#0;class#16226:17130" expanded="false" />
-            <element signature="class#17139:18038" expanded="false" />
-            <element signature="method#next#0;class#17139:18038" expanded="false" />
-            <element signature="class#18048:18948" expanded="false" />
-            <element signature="method#next#0;class#18048:18948" expanded="false" />
-            <element signature="class#18957:19856" expanded="false" />
-            <element signature="method#next#0;class#18957:19856" expanded="false" />
-            <element signature="class#19866:20703" expanded="false" />
-            <element signature="method#next#0;class#19866:20703" expanded="false" />
-            <element signature="class#20713:21612" expanded="false" />
-            <element signature="method#next#0;class#20713:21612" expanded="false" />
-            <element signature="class#21622:22522" expanded="false" />
-            <element signature="method#next#0;class#21622:22522" expanded="false" />
-            <element signature="class#22531:23430" expanded="false" />
-            <element signature="method#next#0;class#22531:23430" expanded="false" />
-            <element signature="class#23440:24279" expanded="false" />
-            <element signature="method#next#0;class#23440:24279" expanded="false" />
-            <element signature="class#24288:25124" expanded="false" />
-            <element signature="method#next#0;class#24288:25124" expanded="false" />
-            <element signature="class#25134:25971" expanded="false" />
-            <element signature="method#next#0;class#25134:25971" expanded="false" />
-            <element signature="class#25981:26948" expanded="false" />
-            <element signature="method#next#0;class#25981:26948" expanded="false" />
-            <element signature="class#26957:27919" expanded="false" />
-            <element signature="method#next#0;class#26957:27919" expanded="false" />
-            <element signature="class#27929:28892" expanded="false" />
-            <element signature="method#next#0;class#27929:28892" expanded="false" />
-            <element signature="class#28901:29863" expanded="false" />
-            <element signature="method#next#0;class#28901:29863" expanded="false" />
-            <element signature="class#29873:30773" expanded="false" />
-            <element signature="method#next#0;class#29873:30773" expanded="false" />
-            <element signature="class#30783:31745" expanded="false" />
-            <element signature="method#next#0;class#30783:31745" expanded="false" />
-            <element signature="class#31755:32718" expanded="false" />
-            <element signature="method#next#0;class#31755:32718" expanded="false" />
-            <element signature="class#32727:33689" expanded="false" />
-            <element signature="method#next#0;class#32727:33689" expanded="false" />
-            <element signature="class#33699:34602" expanded="false" />
-            <element signature="method#next#0;class#33699:34602" expanded="false" />
-            <element signature="class#34611:35510" expanded="false" />
-            <element signature="method#next#0;class#34611:35510" expanded="false" />
-            <element signature="class#35520:36420" expanded="false" />
-            <element signature="method#next#0;class#35520:36420" expanded="false" />
-            <element signature="class#36429:37328" expanded="false" />
-            <element signature="method#next#0;class#36429:37328" expanded="false" />
-            <element signature="class#37338:38179" expanded="false" />
-            <element signature="method#next#0;class#37338:38179" expanded="false" />
-            <element signature="class#38188:39024" expanded="false" />
-            <element signature="method#next#0;class#38188:39024" expanded="false" />
-            <element signature="class#39034:39871" expanded="false" />
-            <element signature="method#next#0;class#39034:39871" expanded="false" />
-            <element signature="class#39881:40844" expanded="false" />
-            <element signature="method#next#0;class#39881:40844" expanded="false" />
-            <element signature="class#40856:41316" expanded="false" />
-            <element signature="method#next#0;class#40856:41316" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Timer.java" />
     <entry file="jar:///usr/local/java/jdk1.8.0_73/src.zip!/java/util/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1008,153 +573,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/local/java/jdk1.8.0_73/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Timer.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class">
+    <entry file="file://$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
+    <entry file="jar:///usr/local/java/jdk1.8.0_73/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="380" column="0" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#1434#0" expanded="true" />
+            <element signature="e#0#4377#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/States.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding>
-            <element signature="class#71:1040" expanded="false" />
-            <element signature="method#next#0;class#71:1040" expanded="false" />
-            <element signature="class#1049:1822" expanded="false" />
-            <element signature="method#next#0;class#1049:1822" expanded="false" />
-            <element signature="class#1832:2606" expanded="false" />
-            <element signature="method#next#0;class#1832:2606" expanded="false" />
-            <element signature="class#2615:3451" expanded="false" />
-            <element signature="method#next#0;class#2615:3451" expanded="false" />
-            <element signature="class#3461:4238" expanded="false" />
-            <element signature="method#next#0;class#3461:4238" expanded="false" />
-            <element signature="class#4247:5020" expanded="false" />
-            <element signature="method#next#0;class#4247:5020" expanded="false" />
-            <element signature="class#5030:5804" expanded="false" />
-            <element signature="method#next#0;class#5030:5804" expanded="false" />
-            <element signature="class#5813:6649" expanded="false" />
-            <element signature="method#next#0;class#5813:6649" expanded="false" />
-            <element signature="class#6659:7437" expanded="false" />
-            <element signature="method#next#0;class#6659:7437" expanded="false" />
-            <element signature="class#7446:8219" expanded="false" />
-            <element signature="method#next#0;class#7446:8219" expanded="false" />
-            <element signature="class#8229:9003" expanded="false" />
-            <element signature="method#next#0;class#8229:9003" expanded="false" />
-            <element signature="class#9012:9848" expanded="false" />
-            <element signature="method#next#0;class#9012:9848" expanded="false" />
-            <element signature="class#9858:10632" expanded="false" />
-            <element signature="method#next#0;class#9858:10632" expanded="false" />
-            <element signature="class#10642:11478" expanded="false" />
-            <element signature="method#next#0;class#10642:11478" expanded="false" />
-            <element signature="class#11488:12325" expanded="false" />
-            <element signature="method#next#0;class#11488:12325" expanded="false" />
-            <element signature="class#12335:13301" expanded="false" />
-            <element signature="method#next#0;class#12335:13301" expanded="false" />
-            <element signature="class#13310:14272" expanded="false" />
-            <element signature="method#next#0;class#13310:14272" expanded="false" />
-            <element signature="class#14282:15245" expanded="false" />
-            <element signature="method#next#0;class#14282:15245" expanded="false" />
-            <element signature="class#15254:16216" expanded="false" />
-            <element signature="method#next#0;class#15254:16216" expanded="false" />
-            <element signature="class#16226:17130" expanded="false" />
-            <element signature="method#next#0;class#16226:17130" expanded="false" />
-            <element signature="class#17139:18038" expanded="false" />
-            <element signature="method#next#0;class#17139:18038" expanded="false" />
-            <element signature="class#18048:18948" expanded="false" />
-            <element signature="method#next#0;class#18048:18948" expanded="false" />
-            <element signature="class#18957:19856" expanded="false" />
-            <element signature="method#next#0;class#18957:19856" expanded="false" />
-            <element signature="class#19866:20703" expanded="false" />
-            <element signature="method#next#0;class#19866:20703" expanded="false" />
-            <element signature="class#20713:21612" expanded="false" />
-            <element signature="method#next#0;class#20713:21612" expanded="false" />
-            <element signature="class#21622:22522" expanded="false" />
-            <element signature="method#next#0;class#21622:22522" expanded="false" />
-            <element signature="class#22531:23430" expanded="false" />
-            <element signature="method#next#0;class#22531:23430" expanded="false" />
-            <element signature="class#23440:24279" expanded="false" />
-            <element signature="method#next#0;class#23440:24279" expanded="false" />
-            <element signature="class#24288:25124" expanded="false" />
-            <element signature="method#next#0;class#24288:25124" expanded="false" />
-            <element signature="class#25134:25971" expanded="false" />
-            <element signature="method#next#0;class#25134:25971" expanded="false" />
-            <element signature="class#25981:26948" expanded="false" />
-            <element signature="method#next#0;class#25981:26948" expanded="false" />
-            <element signature="class#26957:27919" expanded="false" />
-            <element signature="method#next#0;class#26957:27919" expanded="false" />
-            <element signature="class#27929:28892" expanded="false" />
-            <element signature="method#next#0;class#27929:28892" expanded="false" />
-            <element signature="class#28901:29863" expanded="false" />
-            <element signature="method#next#0;class#28901:29863" expanded="false" />
-            <element signature="class#29873:30773" expanded="false" />
-            <element signature="method#next#0;class#29873:30773" expanded="false" />
-            <element signature="class#30783:31745" expanded="false" />
-            <element signature="method#next#0;class#30783:31745" expanded="false" />
-            <element signature="class#31755:32718" expanded="false" />
-            <element signature="method#next#0;class#31755:32718" expanded="false" />
-            <element signature="class#32727:33689" expanded="false" />
-            <element signature="method#next#0;class#32727:33689" expanded="false" />
-            <element signature="class#33699:34602" expanded="false" />
-            <element signature="method#next#0;class#33699:34602" expanded="false" />
-            <element signature="class#34611:35510" expanded="false" />
-            <element signature="method#next#0;class#34611:35510" expanded="false" />
-            <element signature="class#35520:36420" expanded="false" />
-            <element signature="method#next#0;class#35520:36420" expanded="false" />
-            <element signature="class#36429:37328" expanded="false" />
-            <element signature="method#next#0;class#36429:37328" expanded="false" />
-            <element signature="class#37338:38179" expanded="false" />
-            <element signature="method#next#0;class#37338:38179" expanded="false" />
-            <element signature="class#38188:39024" expanded="false" />
-            <element signature="method#next#0;class#38188:39024" expanded="false" />
-            <element signature="class#39034:39871" expanded="false" />
-            <element signature="method#next#0;class#39034:39871" expanded="false" />
-            <element signature="class#39881:40844" expanded="false" />
-            <element signature="method#next#0;class#39881:40844" expanded="false" />
-            <element signature="class#40856:41316" expanded="false" />
-            <element signature="method#next#0;class#40856:41316" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ToreticalInformatics/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1378#1379#0" expanded="true" />
-            <element signature="e#1416#1417#0" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
