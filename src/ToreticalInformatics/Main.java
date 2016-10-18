@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 interface State {
     State next(Character in);
+    String jmeno = "";
+    String cas = "";
+    String sviti = "";
+    
 }
 
 public class Main {

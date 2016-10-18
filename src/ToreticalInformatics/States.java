@@ -2,6 +2,17 @@ package ToreticalInformatics;
 
 enum States implements State {
     Init {
+    	public String jmeno = "S0";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -12,8 +23,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G1 {
+    	public String jmeno = "S1";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -29,8 +55,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G12 {
+    	public String jmeno = "S1-2";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -46,8 +87,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G2 {
+    	public String jmeno = "S2";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -61,8 +117,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+       	}
     },
     G23 {
+    	public String jmeno = "S2-3";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -78,8 +149,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G3 {
+    	public String jmeno = "S3";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -95,8 +181,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G34 {
+    	public String jmeno = "S3-4";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -112,8 +213,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G4 {
+    	public String jmeno = "S4";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -127,8 +243,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G45 {
+    	public String jmeno = "S4-5";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -144,8 +275,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G5 {
+    	public String jmeno = "S5";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -161,8 +307,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G56 {
+    	public String jmeno = "S5-6";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -178,8 +339,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G6 {
+    	public String jmeno = "S6";
+    	public String cas = "t1 - 20 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -194,8 +370,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     G61 {
+    	public String jmeno = "S6-1";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -211,9 +402,24 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
 
     Y1 {
+    	public String jmeno = "S1'";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -227,8 +433,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y12 {
+    	public String jmeno = "S1-2'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -242,8 +463,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y23 {
+    	public String jmeno = "S2-3'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -253,8 +489,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y3 {
+    	public String jmeno = "S3'";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -264,8 +515,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y34 {
+    	public String jmeno = "S3-4'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -275,8 +541,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y4 {
+    	public String jmeno = "S4'";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -286,8 +567,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y45 {
+    	public String jmeno = "S4-5'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -297,8 +593,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y5 {
+    	public String jmeno = "S5'";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -310,8 +621,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y56 {
+    	public String jmeno = "S5-6'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -323,8 +649,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y6 {
+    	public String jmeno = "S6'";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -336,8 +677,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     Y61 {
+    	public String jmeno = "S6-1'";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -351,9 +707,24 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
 
     B1 {
+    	public String jmeno = "S1''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -365,8 +736,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B12 {
+    	public String jmeno = "S1-2''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -378,8 +764,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B2 {
+    	public String jmeno = "S2''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -391,8 +792,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B23 {
+    	public String jmeno = "S2-3''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -406,8 +822,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B3 {
+    	public String jmeno = "S3''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -421,8 +852,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B34 {
+    	public String jmeno = "S3-4''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -436,8 +882,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B45 {
+    	public String jmeno = "S4-5''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -447,8 +908,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B5 {
+    	public String jmeno = "S5''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -458,8 +934,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+       }
     },
     B56 {
+    	public String jmeno = "S5-6''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -469,8 +960,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+       }
     },
     B6 {
+    	public String jmeno = "S6''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -480,8 +986,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     B61 {
+    	public String jmeno = "S6-1''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -494,9 +1015,24 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
 
     R1 {
+    	public String jmeno = "S1'''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -506,8 +1042,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R12 {
+    	public String jmeno = "S1-2'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -517,8 +1068,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R2 {
+    	public String jmeno = "S2'''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -528,8 +1094,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R23 {
+    	public String jmeno = "S2-3'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -541,8 +1122,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R3 {
+    	public String jmeno = "S3'''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -555,8 +1151,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R34 {
+    	public String jmeno = "S3-4'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -568,8 +1179,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R4 {
+    	public String jmeno = "S4'''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -581,8 +1207,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+       }
     },
     R45 {
+    	public String jmeno = "S4-5'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -596,8 +1237,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R5 {
+    	public String jmeno = "S5'''";
+    	public String cas = "t2 - 15 sekund";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -611,8 +1267,23 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
     R56 {
+    	public String jmeno = "S5-6'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -626,9 +1297,24 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
 
     R61 {
+    	public String jmeno = "S6-1'''";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -638,13 +1324,32 @@ enum States implements State {
                     return Fail;
             }
         }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
+        }
     },
 
-    Fail {
+    Fail {    	
+    	public String jmeno = "Fail";
+    	public String cas = "t0 - 4 sekundy";
+    	public String sviti = 	"S1 - zluta\n"+
+    							"S2 - zluta\n"+
+    							"S3 - zluta\n"+
+    							"S4 - zluta\n"+
+    							"S5 - zluta\n"+
+    							"S6 - zluta\n"+
+    							"S7 - cervena\n"+
+    							"S8 - cervena\n"+
+    							"S9 - cervena\n";
         @Override
         public State next(Character c) {
             System.out.println("Nepovolený stav");
             return Fail;
+        }
+        @Override
+        public String toString(){
+        	return "Jsem stav " + jmeno + ", budu zde po dobu " + cas + ", semafory sviti takto:\n" + sviti;
         }
     }
 }
