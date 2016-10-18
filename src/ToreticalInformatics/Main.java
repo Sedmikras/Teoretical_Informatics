@@ -22,19 +22,26 @@ public class Main {
         String word;
         System.out.println("Spoustim krizovatku ve stavu S0:");
         while (true) {
-            System.out.println(s.toString());
+            System.out.println(s.toString() + "Zadej dalsi znak:");
             word = sc.nextLine();
             if (word.isEmpty()) {
                 s = s.next(' ');
                 continue;
             }
-            if (word.charAt(0) == 'q') {
+            else if (word.charAt(0) == 'h') {
+                System.out.println("vypíšu ti jak s timhletim zacházet");
+                continue;
+            } 
+            else if(word.charAt(0) == 'a' || word.charAt(0) == 'b' || word.charAt(0) == 'c') {
+                s = s.next(word.charAt(0));
+                continue;
+            }
+            else if (word.charAt(0) == 'q') {
                 break;
             }
-            if (word.charAt(0) == 'h') {
-                System.out.println("vypíšu ti jak s timhletim zacházet");
-            } else {
-                s = s.next(word.charAt(0));
+            else{
+            	System.out.println("Spatne zadany znak!");
+            	continue;
             }
         }
         sc.close();
