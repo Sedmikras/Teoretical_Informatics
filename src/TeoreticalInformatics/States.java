@@ -334,7 +334,7 @@ enum States implements State {
     G61 {
         private String name = "S6-1   ";
         private String duration = "t0 (4 sekundy)";
-        private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
+        private String lights = "Č+O | Č | Č+O | Z | O | Č | Č | Č | Č";
         private String button = "Žádné";
 
         @Override
@@ -654,7 +654,7 @@ enum States implements State {
     Y61 {
         private String name = "S6-1'  ";
         private String duration = "t0 (4 sekundy)";
-        private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
+        private String lights = "Č+O | Č | Č+O | Z | O | Č | Č | Č | Č";
         private String button = "1";
 
         @Override
@@ -974,7 +974,7 @@ enum States implements State {
     B61 {
         private String name = "S6-1'' ";
         private String duration = "t0 (4 sekundy)";
-        private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
+        private String lights = "Č+O | Č | Č+O | Z | O | Č | Č | Č | Č";
         private String button = "2";
 
         @Override
@@ -1294,7 +1294,7 @@ enum States implements State {
     R61 {
         private String name = "S6-1'''";
         private String duration = "t0 (4 sekundy)";
-        private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
+        private String lights = "Č+O | Č | Č+O | Z | O | Č | Č | Č | Č";
         private String button = "3";
 
         @Override
