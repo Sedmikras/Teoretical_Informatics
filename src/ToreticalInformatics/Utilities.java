@@ -6,6 +6,6 @@ package ToreticalInformatics;
 public class Utilities {
     public static final char BLANK = ' ';
     public static final char BUTTON_1 = 'a';
-    public static final char BUTTON_2 ='b';
-    public static final char BUTTON_3 ='c';
+    public static final char BUTTON_2 = 'b';
+    public static final char BUTTON_3 = 'c';
 }
