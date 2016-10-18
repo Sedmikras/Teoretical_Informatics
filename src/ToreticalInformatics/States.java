@@ -3,7 +3,7 @@ package ToreticalInformatics;
 enum States implements State {
     Init {
         private String name = "S0     ";
-        private String duration = " --- doba trvání: to (4 sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | O | O | O | O | O | Č | Č | Č ";
 
         @Override
@@ -31,8 +31,8 @@ enum States implements State {
         }
     },
     G1 {
-        private String name = "s1     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S1     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
 
         @Override
@@ -58,7 +58,7 @@ enum States implements State {
     },
     G12 {
         private String name = "S1-2   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
 
         @Override
@@ -83,8 +83,8 @@ enum States implements State {
         }
     },
     G2 {
-        private String name = "s2     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S2     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
 
         @Override
@@ -111,7 +111,7 @@ enum States implements State {
     },
     G23 {
         private String name = "S2-3   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
 
         @Override
@@ -136,8 +136,8 @@ enum States implements State {
         }
     },
     G3 {
-        private String name = "s3     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S3     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -163,7 +163,7 @@ enum States implements State {
     },
     G34 {
         private String name = "S3-4   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -188,8 +188,8 @@ enum States implements State {
         }
     },
     G4 {
-        private String name = "s4     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S4     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
 
         @Override
@@ -216,7 +216,7 @@ enum States implements State {
     },
     G45 {
         private String name = "S4-5   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
 
         @Override
@@ -241,8 +241,8 @@ enum States implements State {
         }
     },
     G5 {
-        private String name = "s5     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S5     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
 
         @Override
@@ -268,7 +268,7 @@ enum States implements State {
     },
     G56 {
         private String name = "S5-6   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
 
         @Override
@@ -293,8 +293,8 @@ enum States implements State {
         }
     },
     G6 {
-        private String name = "s6     ";
-        private String duration = " --- doba trvání: t1 (20sekund)";
+        private String name = "S6     ";
+        private String duration = " --- doba trvání: t1 (20 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
 
         @Override
@@ -321,7 +321,7 @@ enum States implements State {
     },
     G61 {
         private String name = "S6-1   ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
 
         @Override
@@ -348,7 +348,7 @@ enum States implements State {
 
     Y1 {
         private String name = "S1'    ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
 
         @Override
@@ -375,7 +375,7 @@ enum States implements State {
     },
     Y12 {
         private String name = "S1-2'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
 
         @Override
@@ -402,7 +402,7 @@ enum States implements State {
     },
     Y23 {
         private String name = "S2-3'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
 
         @Override
@@ -431,7 +431,7 @@ enum States implements State {
     },
     Y3 {
         private String name = "S3'    ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -460,7 +460,7 @@ enum States implements State {
     },
     Y34 {
         private String name = "S3-4'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -489,7 +489,7 @@ enum States implements State {
     },
     Y4 {
         private String name = "S4'    ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
 
         @Override
@@ -518,7 +518,7 @@ enum States implements State {
     },
     Y45 {
         private String name = "S4-5'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
 
         @Override
@@ -546,7 +546,7 @@ enum States implements State {
     },
     Y5 {
         private String name = "S5'    ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
 
         @Override
@@ -574,7 +574,7 @@ enum States implements State {
     },
     Y56 {
         private String name = "S5-6'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
 
         @Override
@@ -602,7 +602,7 @@ enum States implements State {
     },
     Y6 {
         private String name = "S6'    ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
 
         @Override
@@ -630,7 +630,7 @@ enum States implements State {
     },
     Y61 {
         private String name = "S6-1'  ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
 
         @Override
@@ -658,7 +658,7 @@ enum States implements State {
 
     B1 {
         private String name = "S1''   ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
 
         @Override
@@ -686,7 +686,7 @@ enum States implements State {
     },
     B12 {
         private String name = "S1-2'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
 
         @Override
@@ -714,7 +714,7 @@ enum States implements State {
     },
     B2 {
         private String name = "S2''   ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
 
         @Override
@@ -742,7 +742,7 @@ enum States implements State {
     },
     B23 {
         private String name = "S2-3'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
 
         @Override
@@ -769,7 +769,7 @@ enum States implements State {
     },
     B3 {
         private String name = "S3''   ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -796,7 +796,7 @@ enum States implements State {
     },
     B34 {
         private String name = "S3-4'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -823,7 +823,7 @@ enum States implements State {
     },
     B45 {
         private String name = "S4-5'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
 
         @Override
@@ -852,7 +852,7 @@ enum States implements State {
     },
     B5 {
         private String name = "S5''   ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
 
         @Override
@@ -881,7 +881,7 @@ enum States implements State {
     },
     B56 {
         private String name = "S5-6'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
 
         @Override
@@ -910,7 +910,7 @@ enum States implements State {
     },
     B6 {
         private String name = "S6''   ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Č | Z | Č | Č";
 
         @Override
@@ -939,7 +939,7 @@ enum States implements State {
     },
     B61 {
         private String name = "S6-1'' ";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
 
         @Override
@@ -968,7 +968,7 @@ enum States implements State {
 
     R1 {
         private String name = "S1'''  ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Č | Z | Z | Č | Č | Č | Č | Č";
 
         @Override
@@ -997,7 +997,7 @@ enum States implements State {
     },
     R12 {
         private String name = "S1-2'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č | Z | O | Č | Č | Č | Č | Č";
 
         @Override
@@ -1026,7 +1026,7 @@ enum States implements State {
     },
     R2 {
         private String name = "S2'''  ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Č | Z | Č | Č | Č | Č | Č | Z";
 
         @Override
@@ -1055,7 +1055,7 @@ enum States implements State {
     },
     R23 {
         private String name = "S2-3'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Z | Č+O | O | Č | Č| Č+O | Č | Č | Č";
 
         @Override
@@ -1083,7 +1083,7 @@ enum States implements State {
     },
     R3 {
         private String name = "S3'''  ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Z | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -1111,7 +1111,7 @@ enum States implements State {
     },
     R34 {
         private String name = "S3-4'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | Z | Č | Č | Č | Z | Č | Č | Č";
 
         @Override
@@ -1139,7 +1139,7 @@ enum States implements State {
     },
     R4 {
         private String name = "S4'''  ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Z | Č | Č | Č | Z | Č | Z | Č";
 
         @Override
@@ -1166,8 +1166,8 @@ enum States implements State {
         }
     },
     R45 {
-        private String name = "S4-5'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String name = "S4-5'''"; 
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | O | Č | Č+O | Č+O | Z | Č | Č | Č";
 
         @Override
@@ -1194,14 +1194,14 @@ enum States implements State {
     },
     R5 {
         private String name = "S5'''  ";
-        private String duration = " --- doba trvání: t2 (15sekund)";
+        private String duration = " --- doba trvání: t2 (15 sekund)";
         private String lights = "Č | Č | Č | Z | Z | Z | Č | Č | Č";
 
         @Override
         public State next(Character in) {
             switch (in) {
                 case Utilities.BLANK:
-                    return Y56;
+                    return R56;
                 case Utilities.BUTTON_1:
                     return Y5;
                 case Utilities.BUTTON_2:
@@ -1221,7 +1221,7 @@ enum States implements State {
     },
     R56 {
         private String name = "S5-6'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | Z | O | Č | Č | Č";
 
         @Override
@@ -1248,7 +1248,7 @@ enum States implements State {
     },
     R61 {
         private String name = "S6-1'''";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "Č | Č | Č | Z | O | Č | Č | Č | Č";
 
         @Override
@@ -1278,7 +1278,7 @@ enum States implements State {
 
     Fail {
         private String name = "Fail";
-        private String duration = " --- doba trvání: to(4sekundy)";
+        private String duration = " --- doba trvání: t0 (4 sekundy)";
         private String lights = "O | O | O | O | O | O | Č | Č | Č";
 
         @Override
