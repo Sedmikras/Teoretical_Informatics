@@ -31,12 +31,12 @@ enum States implements State {
     G1 {
     	public String jmeno = "S1";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
+    	public String sviti = 	"S1 - zelena\n"+
+    							"S2 - cervena\n"+
+    							"S3 - zelena\n"+
+    							"S4 - zelena\n"+
+    							"S5 - cervena\n"+
+    							"S6 - cervena\n"+
     							"S7 - cervena\n"+
     							"S8 - cervena\n"+
     							"S9 - cervena\n";
@@ -63,15 +63,15 @@ enum States implements State {
     G12 {
     	public String jmeno = "S1-2";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zluta\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -95,15 +95,15 @@ enum States implements State {
     G2 {
     	public String jmeno = "S2";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - zelena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -125,15 +125,15 @@ enum States implements State {
     G23 {
     	public String jmeno = "S2-3";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena + zluta\n"+
+								"S3 - zluta\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena + zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -157,15 +157,15 @@ enum States implements State {
     G3 {
     	public String jmeno = "S3";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -190,14 +190,14 @@ enum States implements State {
     	public String jmeno = "S3-4";
     	public String cas = "t0 - 4 sekundy";
     	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -221,15 +221,15 @@ enum States implements State {
     G4 {
     	public String jmeno = "S4";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - zelena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -251,15 +251,15 @@ enum States implements State {
     G45 {
     	public String jmeno = "S4-5";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zluta\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena + zluta\n"+
+								"S5 - cervena + zluta\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -283,15 +283,15 @@ enum States implements State {
     G5 {
     	public String jmeno = "S5";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -315,15 +315,15 @@ enum States implements State {
     G56 {
     	public String jmeno = "S5-6";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -347,15 +347,15 @@ enum States implements State {
     G6 {
     	public String jmeno = "S6";
     	public String cas = "t1 - 20 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - cervena\n"+
+								"S7 - zelena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -378,15 +378,15 @@ enum States implements State {
     G61 {
     	public String jmeno = "S6-1";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena + zluta\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zluta\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -411,15 +411,15 @@ enum States implements State {
     Y1 {
     	public String jmeno = "S1'";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+    							"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zelena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -441,15 +441,15 @@ enum States implements State {
     Y12 {
     	public String jmeno = "S1-2'";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zluta\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -471,15 +471,15 @@ enum States implements State {
     Y23 {
     	public String jmeno = "S2-3'";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena + zluta\n"+
+								"S3 - zluta\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena + zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -497,15 +497,15 @@ enum States implements State {
     Y3 {
     	public String jmeno = "S3'";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -524,14 +524,14 @@ enum States implements State {
     	public String jmeno = "S3-4'";
     	public String cas = "t0 - 4 sekundy";
     	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -549,15 +549,15 @@ enum States implements State {
     Y4 {
     	public String jmeno = "S4'";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - zelena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -575,15 +575,15 @@ enum States implements State {
     Y45 {
     	public String jmeno = "S4-5'";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zluta\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena + zluta\n"+
+								"S5 - cervena + zluta\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -601,15 +601,15 @@ enum States implements State {
     Y5 {
     	public String jmeno = "S5'";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -629,15 +629,15 @@ enum States implements State {
     Y56 {
     	public String jmeno = "S5-6'";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -657,15 +657,15 @@ enum States implements State {
     Y6 {
     	public String jmeno = "S6'";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - cervena\n"+
+								"S7 - zelena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -685,15 +685,15 @@ enum States implements State {
     Y61 {
     	public String jmeno = "S6-1'";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena + zluta\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zluta\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -716,15 +716,15 @@ enum States implements State {
     B1 {
     	public String jmeno = "S1''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zelena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -772,15 +772,15 @@ enum States implements State {
     B2 {
     	public String jmeno = "S2''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - zelena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -800,15 +800,15 @@ enum States implements State {
     B23 {
     	public String jmeno = "S2-3''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena + zluta\n"+
+								"S3 - zluta\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena + zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -830,15 +830,15 @@ enum States implements State {
     B3 {
     	public String jmeno = "S3''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -861,14 +861,14 @@ enum States implements State {
     	public String jmeno = "S3-4''";
     	public String cas = "t0 - 4 sekundy";
     	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -890,15 +890,15 @@ enum States implements State {
     B45 {
     	public String jmeno = "S4-5''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zluta\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena + zluta\n"+
+								"S5 - cervena + zluta\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -916,15 +916,15 @@ enum States implements State {
     B5 {
     	public String jmeno = "S5''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -942,15 +942,15 @@ enum States implements State {
     B56 {
     	public String jmeno = "S5-6''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -968,15 +968,15 @@ enum States implements State {
     B6 {
     	public String jmeno = "S6''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - cervena\n"+
+								"S7 - zelena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -994,15 +994,15 @@ enum States implements State {
     B61 {
     	public String jmeno = "S6-1''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena + zluta\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zluta\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1024,15 +1024,15 @@ enum States implements State {
     R1 {
     	public String jmeno = "S1'''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zelena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1050,15 +1050,15 @@ enum States implements State {
     R12 {
     	public String jmeno = "S1-2'''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - zluta\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1076,15 +1076,15 @@ enum States implements State {
     R2 {
     	public String jmeno = "S2'''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena\n"+
+								"S3 - zelena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - zelena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1102,15 +1102,15 @@ enum States implements State {
     R23 {
     	public String jmeno = "S2-3'''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - cervena + zluta\n"+
+								"S3 - zluta\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - cervena + zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1130,15 +1130,15 @@ enum States implements State {
     R3 {
     	public String jmeno = "S3'''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - zelena\n"+
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1160,14 +1160,14 @@ enum States implements State {
     	public String jmeno = "S3-4'''";
     	public String cas = "t0 - 4 sekundy";
     	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+								"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1187,15 +1187,15 @@ enum States implements State {
     R4 {
     	public String jmeno = "S4'''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+    							"S2 - zelena\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena\n"+
+								"S5 - cervena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - zelena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1215,15 +1215,15 @@ enum States implements State {
     R45 {
     	public String jmeno = "S4-5'''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - zluta\n"+
+								"S3 - cervena\n"+
+								"S4 - cervena + zluta\n"+
+								"S5 - cervena + zluta\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1245,15 +1245,15 @@ enum States implements State {
     R5 {
     	public String jmeno = "S5'''";
     	public String cas = "t2 - 15 sekund";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zelena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1275,15 +1275,15 @@ enum States implements State {
     R56 {
     	public String jmeno = "S5-6'''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zelena\n"+
+								"S6 - zluta\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {
@@ -1306,15 +1306,15 @@ enum States implements State {
     R61 {
     	public String jmeno = "S6-1'''";
     	public String cas = "t0 - 4 sekundy";
-    	public String sviti = 	"S1 - zluta\n"+
-    							"S2 - zluta\n"+
-    							"S3 - zluta\n"+
-    							"S4 - zluta\n"+
-    							"S5 - zluta\n"+
-    							"S6 - zluta\n"+
-    							"S7 - cervena\n"+
-    							"S8 - cervena\n"+
-    							"S9 - cervena\n";
+    	public String sviti = 	"S1 - cervena + zluta\n"+
+								"S2 - cervena\n"+
+								"S3 - cervena\n"+
+								"S4 - zelena\n"+
+								"S5 - zluta\n"+
+								"S6 - cervena\n"+
+								"S7 - cervena\n"+
+								"S8 - cervena\n"+
+								"S9 - cervena\n";
         @Override
         public State next(Character in) {
             switch (in) {

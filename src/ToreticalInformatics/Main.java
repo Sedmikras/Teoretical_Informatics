@@ -20,6 +20,7 @@ public class Main {
         State s = States.Init;
         Scanner sc = new Scanner(System.in);
         String word;
+        System.out.println("Spoustim krizovatku ve stavu S0:");
         while (true) {
             System.out.println(s.toString());
             word = sc.nextLine();
@@ -28,7 +29,7 @@ public class Main {
                 continue;
             }
             if (word.charAt(0) == 'q') {
-                System.exit(0);
+                break;
             }
             if (word.charAt(0) == 'h') {
                 System.out.println("vypíšu ti jak s timhletim zacházet");
@@ -36,5 +37,7 @@ public class Main {
                 s = s.next(word.charAt(0));
             }
         }
+        sc.close();
+        System.exit(0);
     }
 }
