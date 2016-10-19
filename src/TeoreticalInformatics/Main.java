@@ -24,14 +24,14 @@ public class Main {
         System.out.println(s.toString());
         while (true) {
             word = sc.nextLine().toLowerCase();
-            if (word.isEmpty() || word.charAt(0) == ' ') {
-                s = s.next(' ');
+            if (word.isEmpty() || word.charAt(0) == Utilities.BLANK) {
+                s = s.next(Utilities.BLANK);
                 showState(s);
                 continue;
             } else if (word.charAt(0) == 'h') {
                 System.out.println(showHelp());
                 continue;
-            } else if (word.charAt(0) == 'a' || word.charAt(0) == 'b' || word.charAt(0) == 'c') {
+            } else if (word.charAt(0) == Utilities.BUTTON_0 || word.charAt(0) == Utilities.BUTTON_1 || word.charAt(0) == Utilities.BUTTON_2) {
                 s = s.next(word.charAt(0));
                 showState(s);
                 continue;
