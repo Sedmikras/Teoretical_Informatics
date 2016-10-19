@@ -1,62 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ee39bca4-2ab2-4f97-baa4-f22d7534e490" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/State.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$13.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$15.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$17.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$18.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$19.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$22.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$23.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$24.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$26.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$27.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$28.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$29.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$30.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$31.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$32.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$33.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$34.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$35.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$36.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$37.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$38.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$39.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$40.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$41.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$42.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$43.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$44.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$45.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$46.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$47.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/States.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/ToreticalInformatics/Utilities.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/States.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/Main.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$13.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$24.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$24.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$35.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$35.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$46.class" afterPath="$PROJECT_DIR$/out/production/Traffic_lights_control/TeoreticalInformatics/States$46.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TeoreticalInformatics/Main.java" afterPath="$PROJECT_DIR$/src/TeoreticalInformatics/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TeoreticalInformatics/States.java" afterPath="$PROJECT_DIR$/src/TeoreticalInformatics/States.java" />
     </list>
     <ignored path="Traffic_lights_control.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,8 +37,21 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="38" column="65" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="65" />
+              <folding>
+                <element signature="e#2077#2078#0" expanded="true" />
+                <element signature="e#2131#2132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="States.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/States.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="1300" column="34" selection-start-line="1300" selection-start-column="32" selection-end-line="1300" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -112,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/States.java" />
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/Utilities.java" />
         <option value="$PROJECT_DIR$/src/ToreticalInformatics/Main.java" />
+        <option value="$PROJECT_DIR$/src/TeoreticalInformatics/States.java" />
+        <option value="$PROJECT_DIR$/src/TeoreticalInformatics/Main.java" />
       </list>
     </option>
   </component>
@@ -146,6 +118,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -164,15 +138,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traffic_lights_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traffic_lights_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeoreticalInformatics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traffic_lights_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Traffic_lights_control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TeoreticalInformatics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Main.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -448,7 +460,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1922" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -457,12 +469,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12864584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,7 +535,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -596,17 +622,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#4377#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Utilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/States.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="1300" column="34" selection-start-line="1300" selection-start-column="32" selection-end-line="1300" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TeoreticalInformatics/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="216">
+          <caret line="38" column="65" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="65" />
+          <folding>
+            <element signature="e#2077#2078#0" expanded="true" />
+            <element signature="e#2131#2132#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
