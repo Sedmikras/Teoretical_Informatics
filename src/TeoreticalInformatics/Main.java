@@ -82,7 +82,19 @@ public class Main {
                     + "L9... Semafor číslo 9\n"
                     + "--- doba trvání stavu... Doba po kterou by měla při zapojení na časovač daná konfigurace semaforů svítit\n"
                     + "####                    ###\n"
-                    + "Stav : L1 | L2 | L3 | L4 | L5 | L6 | L7 | L8 | L9   --- doba trvání stavu");
+                    + "Stav : L1 | L2 | L3 | L4 | L5 | L6 | L7 | L8 | L9   --- doba trvání stavu\n\n");
+
+            System.out.println("Pro pokračování stiskněte klávesu ENTER, pro ukončení zadejte Q(q) a potvrďte klávesou ENTER");
+            pom = sc.nextLine().toLowerCase();
+            if (!pom.isEmpty() && pom.charAt(0) == 'q')
+                  System.exit(0);
+
+            System.out.println("Na semaforech může svít :\n"
+                    + "Z jako zelená\n"
+                    + "O jako oranžová(žlutá)\n"
+                    + "Č jako červená\n"
+                    + "Č+O svítí červená a oranžová(žlutá) zároveň\n\n"
+                    + "Výsledný stav tedy může vypadat například takto :\n S0      : O | O | O | O | O | O | Č | Č | Č");
 
 
             s = States.Init;
